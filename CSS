@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.timer-display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.controls button:nth-child(1) {
+    background-color: green;
+}
+
+.controls button:nth-child(2) {
+    background-color: gray;
+}
+
+.controls button:nth-child(3) {
+    background-color: red;
+}
+
+.modes button:nth-child(1) {
+    background-color: blue;
+}
+
+.modes button:nth-child(2) {
+    background-color: purple;
+}
