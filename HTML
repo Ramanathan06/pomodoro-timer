@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer-display" id="timer">25:00</div>
+        <div class="controls">
+            <button class="but start" onclick="startTimer()">Start</button>
+            <button class="but reset" onclick="resetTimer()">Reset</button>
+            <button class="but stop" onclick="stopTimer()">Stop</button>
+        </div>
+        <div class="modes">
+
+            <button class="sb" onclick="setTimer(5)">Short Break (5 min)</button>
+            <button class="lb" onclick="setTimer(15)">Long Break (15 min)</button>
+        </div>
+    </div>
+    <audio id="alarm" src="" C:\Users\kalai\Downloads\wrong-answer-sound-effect.mp3></audio>
+</body>
+
+</html>
